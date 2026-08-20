@@ -1,6 +1,6 @@
 from arquivo_principal import lib
-alunos = []
 
-lib.cadastrar_aluno(alunos)
+alunos = lib.carregar_dados()
+
 lib.listar_aluno(alunos)
-
+lib.excluir_aluno(alunos)

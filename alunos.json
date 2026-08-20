@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "lázaro",
+        "aula": "terça",
+        "horario": 17
+    },
+    {
+        "nome": "ana",
+        "aula": "quinta",
+        "horario": 9
+    }
+]
