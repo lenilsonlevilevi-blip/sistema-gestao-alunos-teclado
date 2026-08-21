@@ -1,12 +1,17 @@
 [
     {
-        "nome": "lázaro",
-        "aula": "terça",
-        "horario": 17
-    },
-    {
         "nome": "ana",
         "aula": "quinta",
         "horario": 9
+    },
+    {
+        "nome": "joï¿½o",
+        "aula": "terï¿½a",
+        "horario": 18
+    },
+    {
+        "nome": "luiz",
+        "aula": "quarta",
+        "horario": 17
     }
 ]

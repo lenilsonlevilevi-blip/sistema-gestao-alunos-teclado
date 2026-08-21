@@ -31,6 +31,31 @@ def excluir_aluno(lista):
      excluir = int(input('Deseja exluir qual aluno? '))
      lista.pop(excluir - 1)
      salvar_dados(lista)
+     print('Aluno excluido com Sucesso!')
+
+
+def editar_aluno(lista):
+    listar_aluno(lista)
+    editar = int(input('Qual aluno deseja editar? '))
+    if editar > len(lista) or editar < 1:
+         print('Digite um número cadastrado')
+    else:
+         guardar= lista[editar - 1]
+         nv_nome = str(input('Qual seria o novo nome? ')).strip()
+         if nv_nome != '':
+              guardar['nome'] = nv_nome
+         nv_dia_da_aula = str(input('Qual é o novo dia de aula? ')).strip()
+         if nv_dia_da_aula != '':
+              guardar['aula'] = nv_dia_da_aula
+         nv_horario= str(input('Qual é o seu novo horário de aula? ')).strip()
+         if nv_horario != '':
+              guardar['horario']= int(nv_horario)
+    salvar_dados(lista)
+              
+             
+
+
+         
 
 
         
